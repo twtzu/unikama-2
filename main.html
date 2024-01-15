@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UMKM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inside-wrapper">
+            <div class="main-container" id="main-container">
+                <div class="main-landing">
+                    <div class="main-content">
+                        <h4 class="nama-umkm">Ayam Kremes </h4>
+                        <h1 class="tagline">The Best <br> Dining Experience</h1>
+                        <p class="main-description">Rasakan kelezatan lalapan yang disajikan bersama berbagai jenis lauk, menjadikan setiap kunjungan berarti. Ayam Kremes membawa cita rasa tradisional yang autentik ke setiap suapannya.</p>
+                        <a href="#about-container" class="main-button">Tentang Kami
+                            <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12H18M6 12L11 7M6 12L11 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </a>
+                        <a href="#about-container" class="main-button">Menu
+                            <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12H18M6 12L11 7M6 12L11 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </a>
+                    </div>
+                    <div class="image-container">
+                    </div>
+                </div>
+                <div class="main-navigation-display" id="mainNav">
+                    <div class="logo-subnav">
+                        <a href="#main-container">
+                            <img src="img/restaurant.png" alt="Logo" id="logoImg">
+                        </a>
+                    </div>
+                    <div class="subnav first">
+                        <a href="#about-container">Tentang</a>
+                    </div>
+                    <div class="subnav">
+                        <a href="#product-container">Produk</a>
+                    </div>
+                    <div class="subnav">
+                        <a href="order-container">Pesan</a>
+                    </div>
+                    <div class="subnav last">
+                        <a href="order-container">Lokasi</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about-container" id="about-container">
+                <div id="carousel1" class="carousel-container carousel slide" data-bs-ride="false">
+
+                    <div class="right-about about carousel slide">
+                        <div class="carousel-inner right-content">
+                            <div class="carousel-item active about-img">
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                            <div class="carousel-item about-img">
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                            <div class="carousel-item about-img">
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="carousel2" class="left-about about">
+                        <div class="left-content carousel-inner">
+                            <div class="carousel-item active">
+                                <h2>Sejarah</h2>
+                                <p>Ayam Kremes berdiri dengan semangat untuk menghadirkan ayam goreng krispi berbumbu kremes yang unik. Didirikan dengan tekad memberikan pengalaman kuliner tak terlupakan, Ayam Kremes berhasil menjadi destinasi favorit bagi
+                                    pecinta cita rasa autentik dan kenangan kuliner yang menyenangkan.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>Pemilik</h2>
+                                <p>
+                                    Pemilik Ayam Kremes, Olivia Tanjung, adalah seorang pengusaha muda berusia 22 tahun yang bersemangat di dunia kuliner. Dengan kecintaannya pada seni memasak, Olivia menciptakan Ayam Kremes sebagai destinasi kuliner yang menawarkan pengalaman suapan petualangan
+                                    rasa. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>Komitmen</h2>
+                                <p> Ayam Kremes memiliki komitmen tinggi terhadap kualitas bahan baku dan proses masak yang higienis, Ayam Kremes menjamin setiap hidangan yang disajikan terjaga kebersihannya, memberikan ketenangan kepada pelanggan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-about carousel-indicators">
+                        <div class="controlpan">
+                            <button id="indi1" type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button id="indi2" type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button id="indi3" type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                    <div class="hidden-indicators carousel-indicators">
+                        <button id="hidin1" type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button id="hidin2" type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button id="hidin3" type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container" id="product-container">
+                <h1>Menu</h1>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="product-label-wrapper">
+                        <div class="carousel-indicators product-label">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Ayam Geprek</button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Lele Goreng</button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Gurame Bakar</button>
+                        </div>
+                        <button class="switch-minuman">Minuman</button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active image-product  ">
+                            <img src="img/chicken.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item image-product  ">
+                            <img src="img/chicken.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item image-product  ">
+                            <img src="img/chicken.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="carouselExampleIndicators" class="carousel slide product-carousel">
+                    <div class="product-label-wrapper">
+                        <div class="carousel-indicators product-label">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Ayam Geprek</button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Lele Goreng</button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Gurame Bakar</button>
+                        </div>
+                        <button class="switch-minuman">Minuman</button>
+                    </div>
+                    <div class="carousel-inner product-content">
+                        <div class="carousel-item active">
+                            <div class="image-product">
+                                <img src="img/chicken.png" alt="...">
+                                <div class="info-product carousel-caption">
+                                    <h2>Ayam Geprek</h2>
+                                    <p><strong>Harga: </strong>Rp. 15.000</p>
+                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                    <p>Ayam Geprek kami adalah sajian yang memuaskan untuk para pencinta pedas yang mencari petualangan rasa yang menggembirakan di tiap tingkatan pedasnya. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-product">
+                                <img src="img/catfish.png" alt="...">
+                                <div class="info-product carousel-caption">
+                                    <h2>Lele Goreng</h2>
+                                    <p><strong>Harga: </strong>Rp. 15.000</p>
+                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                    <p>Lele Goreng yang digoreng langsung saat dipesan memastikan kesegaran di tiap penyajiannya, ditemani dengan lalapan dan sambal yang semakin menambah kenikmatan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-product">
+                                <img src="img/blue.jpg" alt="...">
+                                <div class="info-product carousel-caption">
+                                    <h2>Gurame Bakar</h2>
+                                    <p><strong>Harga: </strong>Rp. 25.000</p>
+                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                    <p>Gurame Bakar yang dikembangbiakkan oleh restoran kami sendiri dari bibit sampai besar untuk memastikan kualitasnya, disajikan saat masih hangat semakin menambah nafsu makan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                </div>
+                <div class="order-container" id="order-container">
+                    <h1>Kontak Kami</h1>
+
+                    <div class="order-wrapper">
+                        <div class="left-order">
+                            <div class="top-left">
+                                <h2>Informasi Kontak</h2>
+
+                                <p><strong>Lokasi:</strong> Lokasi Anda</p>
+                                <p><strong>Jam Buka:</strong> 07:00 - 22:00</p>
+                                <p><strong>Telepon:</strong> Nomor Telepon Anda</p>
+
+                                <div class="social-media">
+                                    <!-- Ganti URL dengan profil media sosial Anda yang sebenarnya -->
+                                    <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" width="30px" height="30px" alt="Facebook"></a>
+                                    <a href="https://gojek.com" target="_blank"><img src="img/gojek.svg" width="30px" height="30px" alt="Twitter"></a>
+                                    <a href="https://instagram.com" target="_blank"><img src="img/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
+                                    <a href="https://whatsapp.com" target="_blank"><img src="img/whatsapp.png" width="30px" height="30px" alt="Facebook"></a>
+                                    <a href="https://line.com" target="_blank"><img src="img/line.png" width="30px" height="30px" alt="Facebook"></a>
+                                    <!-- Tambahkan ikon media sosial lainnya jika diperlukan -->
+                                </div>
+                            </div>
+                            <div class="bottom-left">
+                                <div class="image-contain-bottom">
+                                    <img src="img/restaurant.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-order" id="map">
+                        </div>
+                        <div class="branch-list">
+                            <ul>
+                                <li>
+                                    <button id="branch1">Cabang 1</button>
+                                </li>
+                                <li>
+                                    <Button id="branch2">Cabang 2</Button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="main.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
