@@ -66,7 +66,6 @@
             </div>
             <div class="about-container" id="about-container">
                 <div id="carousel1" class="carousel-container carousel slide" data-bs-ride="false">
-
                     <div class="right-about about carousel slide">
                         <div class="carousel-inner right-content">
                             <div class="carousel-item active about-img">
@@ -115,42 +114,11 @@
                 </div>
             </div>
             <div class="product-container" id="product-container">
-                <h1>Menu</h1>
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide product-carousel">
                     <div class="product-label-wrapper">
+                        <h2>Menu</h2>
                         <div class="carousel-indicators product-label">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Ayam Geprek</button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Lele Goreng</button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Gurame Bakar</button>
-                        </div>
-                        <button class="switch-minuman">Minuman</button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active image-product  ">
-                            <img src="img/chicken.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item image-product  ">
-                            <img src="img/chicken.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item image-product  ">
-                            <img src="img/chicken.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div id="carouselExampleIndicators" class="carousel slide product-carousel">
-                    <div class="product-label-wrapper">
-                        <div class="carousel-indicators product-label">
+                            <!-- Initial carousel indicators for food -->
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Ayam Geprek</button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Lele Goreng</button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Gurame Bakar</button>
@@ -158,72 +126,63 @@
                         <button class="switch-minuman">Minuman</button>
                     </div>
                     <div class="carousel-inner product-content">
-                        <div class="carousel-item active">
+                        <!-- Initial carousel items for food -->
+                        <div class="carousel-item product-item active">
                             <div class="image-product">
-                                <img src="img/chicken.png" alt="...">
-                                <div class="info-product carousel-caption">
-                                    <h2>Ayam Geprek</h2>
-                                    <p><strong>Harga: </strong>Rp. 15.000</p>
-                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
-                                    <p>Ayam Geprek kami adalah sajian yang memuaskan untuk para pencinta pedas yang mencari petualangan rasa yang menggembirakan di tiap tingkatan pedasnya. </p>
-                                </div>
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                            <div class="carousel-caption info-product">
+                                <h2>Ayam Geprek</h2>
+                                <p><strong>Harga: </strong>Rp. 15.000</p>
+                                <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                <p>Ayam Geprek kami adalah sajian yang memuaskan untuk para pencinta pedas yang mencari petualangan rasa yang menggembirakan di tiap tingkatan pedasnya. </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item product-item">
                             <div class="image-product">
-                                <img src="img/catfish.png" alt="...">
-                                <div class="info-product carousel-caption">
-                                    <h2>Lele Goreng</h2>
-                                    <p><strong>Harga: </strong>Rp. 15.000</p>
-                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
-                                    <p>Lele Goreng yang digoreng langsung saat dipesan memastikan kesegaran di tiap penyajiannya, ditemani dengan lalapan dan sambal yang semakin menambah kenikmatan.</p>
-                                </div>
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                            <div class="carousel-caption info-product">
+                                <h2>Lele Goreng</h2>
+                                <p><strong>Harga: </strong>Rp. 15.000</p>
+                                <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                <p>Lele Goreng yang digoreng langsung saat dipesan memastikan kesegaran di tiap penyajiannya, ditemani dengan lalapan dan sambal yang semakin menambah kenikmatan.</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item product-item">
                             <div class="image-product">
-                                <img src="img/blue.jpg" alt="...">
-                                <div class="info-product carousel-caption">
-                                    <h2>Gurame Bakar</h2>
-                                    <p><strong>Harga: </strong>Rp. 25.000</p>
-                                    <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
-                                    <p>Gurame Bakar yang dikembangbiakkan oleh restoran kami sendiri dari bibit sampai besar untuk memastikan kualitasnya, disajikan saat masih hangat semakin menambah nafsu makan</p>
-                                </div>
+                                <img src="img/blue-over.jpg" alt="...">
+                            </div>
+                            <div class="carousel-caption info-product">
+                                <h2>Gurame Bakar</h2>
+                                <p><strong>Harga: </strong>Rp. 25.000</p>
+                                <p><strong>Pendamping:  </strong>Sambal, aneka sayur</p>
+                                <p>Gurame Bakar yang dikembangbiakkan oleh restoran kami sendiri dari bibit sampai besar untuk memastikan kualitasnya, disajikan saat masih hangat semakin menambah nafsu makan</p>
                             </div>
                         </div>
+
                     </div>
-                </div> -->
-
                 </div>
-                <div class="order-container" id="order-container">
-                    <h1>Kontak Kami</h1>
 
-                    <div class="order-wrapper">
+            </div>
+            <div class="order-container" id="order-container">
+                <div class="order-wrapper">
+                    <div class="left-wrapper">
                         <div class="left-order">
-                            <div class="top-left">
-                                <h2>Informasi Kontak</h2>
+                            <h4>Informasi Kontak</h4>
+                            <p><strong>Lokasi:</strong> Lokasi Anda</p>
+                            <p><strong>Jam Buka:</strong> 07:00 - 22:00</p>
+                            <p><strong>Telepon:</strong> Nomor Telepon Anda</p>
 
-                                <p><strong>Lokasi:</strong> Lokasi Anda</p>
-                                <p><strong>Jam Buka:</strong> 07:00 - 22:00</p>
-                                <p><strong>Telepon:</strong> Nomor Telepon Anda</p>
-
-                                <div class="social-media">
-                                    <!-- Ganti URL dengan profil media sosial Anda yang sebenarnya -->
-                                    <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" width="30px" height="30px" alt="Facebook"></a>
-                                    <a href="https://gojek.com" target="_blank"><img src="img/gojek.svg" width="30px" height="30px" alt="Twitter"></a>
-                                    <a href="https://instagram.com" target="_blank"><img src="img/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
-                                    <a href="https://whatsapp.com" target="_blank"><img src="img/whatsapp.png" width="30px" height="30px" alt="Facebook"></a>
-                                    <a href="https://line.com" target="_blank"><img src="img/line.png" width="30px" height="30px" alt="Facebook"></a>
-                                    <!-- Tambahkan ikon media sosial lainnya jika diperlukan -->
-                                </div>
+                            <div class="social-media">
+                                <!-- Ganti URL dengan profil media sosial Anda yang sebenarnya -->
+                                <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" width="30px" height="30px" alt="Facebook"></a>
+                                <a href="https://gojek.com" target="_blank"><img src="img/gojek.svg" width="30px" height="30px" alt="Twitter"></a>
+                                <a href="https://instagram.com" target="_blank"><img src="img/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
+                                <a href="https://whatsapp.com" target="_blank"><img src="img/whatsapp.png" width="30px" height="30px" alt="Facebook"></a>
+                                <a href="https://line.com" target="_blank"><img src="img/line.png" width="30px" height="30px" alt="Facebook"></a>
+                                <!-- Tambahkan ikon media sosial lainnya jika diperlukan -->
                             </div>
-                            <div class="bottom-left">
-                                <div class="image-contain-bottom">
-                                    <img src="img/restaurant.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-order" id="map">
                         </div>
                         <div class="branch-list">
                             <ul>
@@ -236,12 +195,13 @@
                             </ul>
                         </div>
                     </div>
-
+                    <div id='map' class="map"></div>
                 </div>
             </div>
         </div>
-        <script src="main.js "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin="anonymous "></script>
+    </div>
+    <script src="main.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin="anonymous "></script>
 
 </body>
 
